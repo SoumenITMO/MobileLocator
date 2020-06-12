@@ -8,6 +8,7 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>war</packaging>
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -15,13 +16,7 @@
     <description>Java Task</description>
 
     <properties>
-        <java.version>1.8</java.version>
-        <port>86</port>
-        <dbname>db1</dbname>
-        <dbport>3306</dbport>
-        <dbhost>localhost</dbhost>
-        <dbusername>root</dbusername>
-        <dbpassword></dbpassword>
+        <java.version>10</java.version>
     </properties>
 
     <dependencies>
